@@ -148,8 +148,8 @@ export default function App() {
     {/* Contact Details */}
     <div className="contact-info">
       <h3>Get in Touch</h3>
-      <p>📞 <strong>Phone:</strong> 7204381492</p>
-      <p>📧 <strong>Email:</strong> apanshusarkar78@gmail.com</p>
+      <p>📞 <strong>Phone:</strong> 7015577240</p>
+      <p>📧 <strong>Email:</strong> ayanshusarkar06@gmail.com</p>
       <p>📍 <strong>Location:</strong> India</p>
       <p>💼 <strong>Role:</strong> Front-End Developer (Student)</p>
       
