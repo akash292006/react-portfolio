@@ -6,7 +6,7 @@ Project Structure Overview
 
 The core functionality of the application is handled through the following files:
 
-index.html
+##index.html
 
 The index.html file is the main HTML entry point of the application.
 
