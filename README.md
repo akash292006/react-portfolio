@@ -1,97 +1,97 @@
-Student Portfolio Application
+# Student Portfolio Application
 
 This project is a React-based student portfolio application built using Vite. It demonstrates a clean and minimal project structure while following modern React development practices. The application serves as a foundation for showcasing personal information, projects, and skills.
 
-Project Structure Overview
+---
+
+## Project Structure Overview
 
 The core functionality of the application is handled through the following files:
 
-##index.html
+---
 
-The index.html file is the main HTML entry point of the application.
+## index.html
 
-Responsibilities:
+The `index.html` file is the main HTML entry point of the application.
 
-Defines the base HTML structure
-
-Contains the root DOM element (<div id="root"></div>) where the React application is mounted
-
-Loads the JavaScript module that initializes the React application
+### Responsibilities
+- Defines the base HTML structure
+- Contains the root DOM element (`<div id="root"></div>`) where the React application is mounted
+- Loads the JavaScript module that initializes the React application
 
 This file does not contain application logic but provides the container required for React rendering.
 
-main.jsx
+---
 
-The main.jsx file is the primary JavaScript entry point for the React application.
+## main.jsx
 
-Responsibilities:
+The `main.jsx` file is the primary JavaScript entry point for the React application.
 
-Imports React and ReactDOM
+### Responsibilities
+- Imports React and ReactDOM
+- Imports global styles from `style.css`
+- Renders the root `App` component using `ReactDOM.createRoot`
 
-Imports global CSS styles
+This file connects the static HTML file to the React component tree.
 
-Renders the root React component (App) into the DOM using ReactDOM.createRoot
+---
 
-This file acts as the connection between the static HTML file and the React component tree.
+## App.jsx
 
-App.jsx
+The `App.jsx` file defines the main React component of the application.
 
-The App.jsx file defines the main React component for the application.
+### Responsibilities
+- Serves as the root component of the user interface
+- Defines the layout and structure of the portfolio
+- Manages component composition and content rendering
 
-Responsibilities:
+---
 
-Serves as the root component of the UI
+## style.css
 
-Defines the structure and layout of the portfolio
+The `style.css` file contains the global styling rules for the application.
 
-Manages content rendering and component composition
+### Responsibilities
+- Defines layout, typography, and color styles
+- Ensures consistent styling across components
+- Separates presentation from application logic
 
-All major sections of the portfolio are typically organized within this component or its child components.
+---
 
-style.css
+## Technologies Used
 
-The style.css file contains the global styles for the application.
+- React
+- Vite
+- JavaScript (ES6+)
+- CSS
 
-Responsibilities:
+---
 
-Defines layout, typography, and color styles
+## Getting Started
 
-Applies consistent styling across all components
-
-Separates presentation from application logic
-
-This file ensures visual consistency throughout the portfolio.
-
-Application Flow
-index.html
-   ↓
-main.jsx
-   ↓
-App.jsx
-   ↓
-Rendered UI styled by style.css
-
-Technologies Used
-
-React
-
-Vite
-
-JavaScript (ES6+)
-
-CSS
-
-Getting Started
-
-Install project dependencies:
-
+Install dependencies:
+```bash
 npm install
-
-
-Start the development server:
+Run the development server:
 
 npm run dev
-
 Purpose
+This project is intended for educational and portfolio use and provides a scalable foundation for building a personal website using React.
 
-This project is intended for educational and portfolio use, providing a structured and scalable foundation for building a personal website using React.
+
+---
+
+## Result
+
+After this fix:
+- ✅ Headings will render correctly
+- ✅ Sections will be clearly separated
+- ✅ Code will be properly formatted
+- ✅ GitHub preview will look professional and readable
+
+If you want, I can also:
+- Align this with **university marking criteria**
+- Add a **deployment section (GitHub Pages / Netlify)**
+- Make it **ATS / recruiter-friendly**
+
+Just tell me 👍
